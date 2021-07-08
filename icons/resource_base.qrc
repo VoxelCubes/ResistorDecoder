@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="general">
+    <file>exclamation_red.png</file>
+    <file>resistor_4b.svg</file>
+    <file>resistor_5b.svg</file>
+    <file>resistor_6b.svg</file>
+    <file>resistor_icon.svg</file>
+    <file>resistor_smd.svg</file>
+  </qresource>
+  <qresource prefix="colors">
+    <file>Color Squares/black.png</file>
+    <file>Color Squares/blank.png</file>
+    <file>Color Squares/blue.png</file>
+    <file>Color Squares/brown.png</file>
+    <file>Color Squares/gold.png</file>
+    <file>Color Squares/gray.png</file>
+    <file>Color Squares/green.png</file>
+    <file>Color Squares/orange.png</file>
+    <file>Color Squares/pink.png</file>
+    <file>Color Squares/red.png</file>
+    <file>Color Squares/silver.png</file>
+    <file>Color Squares/violet.png</file>
+    <file>Color Squares/white.png</file>
+    <file>Color Squares/yellow.png</file>
+  </qresource>
+</RCC>
