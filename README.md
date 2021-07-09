@@ -24,7 +24,7 @@ pip install PySide6
 ```
 
 ## Installation
-This program is available as an appimage, AUR package, or Windows executable.\
+This program is available as an AUR package, or Windows executable.\
 Alternatively, install and run from source:
 
 ```

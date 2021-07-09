@@ -118,14 +118,26 @@ class ResistanceCalc(Qw.QMainWindow, Ui_MainWindow):
                              b"#FFDDFF"
                              ]
 
-        with open("../icons/resistor_4b.svg", "rb") as svg_file:
-            self.svg_data_4b = svg_file.read()
-        with open("../icons/resistor_5b.svg", "rb") as svg_file:
-            self.svg_data_5b = svg_file.read()
-        with open("../icons/resistor_6b.svg", "rb") as svg_file:
-            self.svg_data_6b = svg_file.read()
-        with open("../icons/resistor_smd.svg", "rb") as svg_file:
-            self.svg_data_smd = svg_file.read()
+        # Could be improved with a helper function
+        file = Qc.QFile(":general/resistor_4b.svg")
+        if not file.open(Qc.QIODevice.ReadOnly):
+            print("Error: Unable to read resistor_4b.svg")
+        self.svg_data_4b = bytes(file.read(40000))
+
+        file = Qc.QFile(":general/resistor_5b.svg")
+        if not file.open(Qc.QIODevice.ReadOnly):
+            print("Error: Unable to read resistor_5b.svg")
+        self.svg_data_5b = bytes(file.read(40000))
+
+        file = Qc.QFile(":general/resistor_6b.svg")
+        if not file.open(Qc.QIODevice.ReadOnly):
+            print("Error: Unable to read resistor_6b.svg")
+        self.svg_data_6b = bytes(file.read(40000))
+
+        file = Qc.QFile(":general/resistor_smd.svg")
+        if not file.open(Qc.QIODevice.ReadOnly):
+            print("Error: Unable to read resistor_smd.svg")
+        self.svg_data_smd = bytes(file.read(40000))
 
         self.change_band_colors_4b()
 
