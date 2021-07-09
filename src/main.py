@@ -1,3 +1,5 @@
+#!/bin/python
+
 import sys
 import PySide6.QtWidgets as Qw
 import PySide6.QtCore as Qc

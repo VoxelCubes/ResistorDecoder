@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0.0
+Name=ResistorDecoder
+Categories=Utility
+GenericName=Electronics Helper
+Comment=Decode color and SMD codes of resistors
+Encoding=UTF-8
+Exec=/src/main.py
+Icon=/icons/resistor_icon.svg
+Terminal=false
+Type=Application
