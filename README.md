@@ -1,4 +1,4 @@
-# Resistor Color and SMD Decoder
+# ResistorDecoder
 
 This is a standalone Qt GUI tool for color bands on through-hole resistors and number codes on SMD parts.
 It supports 3, 4, 5, and 6 band resistors, as well as standard SMD codes, including the EIA-96 standard.
