@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ResistorDecoder
+Comment=Qt GUI tool for through-hole resistors and SMD parts
+GenericName=Electronics tool
+Icon=ResistorDecoder
+Exec=resistor_decoder
+Terminal=false
+Categories=Utility 

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>620</width>
+    <width>642</width>
     <height>420</height>
    </rect>
   </property>
@@ -1142,7 +1142,7 @@
                </font>
               </property>
               <property name="text">
-               <string>Resistor Color and SMD Decoder</string>
+               <string>ResistorDecoder</string>
               </property>
              </widget>
             </item>

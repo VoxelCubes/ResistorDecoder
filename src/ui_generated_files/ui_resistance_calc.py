@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(620, 420)
+        MainWindow.resize(642, 420)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.verticalLayout_2 = QVBoxLayout(self.centralwidget)
@@ -827,7 +827,7 @@ class Ui_MainWindow(object):
         self.label_37.setText(QCoreApplication.translate("MainWindow", u"Maximum", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_smd), QCoreApplication.translate("MainWindow", u"SMD", None))
         self.label_32.setText("")
-        self.label_16.setText(QCoreApplication.translate("MainWindow", u"Resistor Color and SMD Decoder", None))
+        self.label_16.setText(QCoreApplication.translate("MainWindow", u"ResistorDecoder", None))
         self.label_24.setText(QCoreApplication.translate("MainWindow", u"Version 1.0 2021", None))
         self.label_15.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p>This is a standalone tool to decode the color bands on through-hole resistors and number codes on SMD parts. It supports 3, 4, 5, and 6 band resistors, as well as standard SMD codes, including the EIA-96 standard.</p></body></html>", None))
         self.label_29.setText(QCoreApplication.translate("MainWindow", u"Libraries: ", None))

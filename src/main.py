@@ -7,7 +7,7 @@ from driver_resistance_calc import ResistanceCalc
 
 
 
-if __name__ == "__main__":
+def main():
     Qw.QApplication.setAttribute(Qc.Qt.AA_EnableHighDpiScaling, True)
     Qw.QApplication.setAttribute(Qc.Qt.AA_UseHighDpiPixmaps, True)
 
@@ -17,3 +17,7 @@ if __name__ == "__main__":
     window.show()
 
     sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+    main()
