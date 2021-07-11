@@ -3,10 +3,10 @@ import PySide6.QtGui as Qg
 from PySide6.QtSvgWidgets import QSvgWidget
 import PySide6.QtWidgets as Qw
 
-import helpers as gh
-import smd_code_parser as smd_parse
-from ui_generated_files.ui_resistance_calc import Ui_MainWindow
-from driver_license import LicenseAgreement
+import src.helpers as gh
+import src.smd_code_parser as smd_parse
+from src.ui_generated_files.ui_resistance_calc import Ui_MainWindow
+from src.driver_license import LicenseAgreement
 
 
 
@@ -448,8 +448,8 @@ class ResistanceCalc(Qw.QMainWindow, Ui_MainWindow):
         def attach_tolerance(combobox, allow_blank=False):
             if allow_blank:
                 combobox.addItem(icons["blank"], "20%")
-            combobox.addItem(icons["silver"], "10%")
-            combobox.addItem(icons["gold"], "5%")
+            combobox.addItem(icons["silver"], "10% Silver")
+            combobox.addItem(icons["gold"], "5% Gold")
             combobox.addItem(icons["brown"], "1%")
             combobox.addItem(icons["red"], "2%")
             combobox.addItem(icons["orange"], "0.05%")

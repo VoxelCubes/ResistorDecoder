@@ -1,3 +1,5 @@
+import re
+
 SI_units = {
     "-24": (-24, "y", "yocto"),
     "-21": (-21, "z", "zepto"),
@@ -77,7 +79,7 @@ def format_resistance(_value, _precision):
 
 
 def calculate_values(_tolerance, _mantissa, _multiplier):
-    tolerance_val = float(_tolerance[:-1]) * 0.01
+    tolerance_val = float(re.match(r"\d+\.?\d*", _tolerance).group(0)) * 0.01
     actual_value = _mantissa * 10 ** _multiplier
     min_value = actual_value * (1 - tolerance_val)
     max_value = actual_value * (1 + tolerance_val)

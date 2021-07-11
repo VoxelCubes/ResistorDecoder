@@ -12,6 +12,7 @@ setuptools.setup(
     description="Qt GUI tool for through-hole resistors and SMD parts.",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    license="GNU Public License version 3 or later",
     url="https://github.com/VoxelCubes/Resistor-Color-and-SMD-Decoder",
     python_requires='>=3.6',
     packages=setuptools.find_packages(exclude=["release"]),
@@ -22,7 +23,6 @@ setuptools.setup(
     ],
     install_requires=["pyside6"],
     entry_points={
-        "gui_scripts": [f"cherry_tomato = ResistorDecoder.main:main"],
+        "gui_scripts": ["resistor_decoder = ResistorDecoder.main:main"],
     },
-    package_data={'': ['icons/*.*'], },
 )

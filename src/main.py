@@ -3,7 +3,7 @@
 import sys
 import PySide6.QtWidgets as Qw
 import PySide6.QtCore as Qc
-from driver_resistance_calc import ResistanceCalc
+from src.driver_resistance_calc import ResistanceCalc
 
 
 
