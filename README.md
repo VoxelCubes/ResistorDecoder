@@ -22,12 +22,12 @@ pip install PySide6
 ```
 
 ## Installation
-This program is available as an AUR package, or Windows executable.\
+This program is available as an [AUR package](https://aur.archlinux.org/packages/resistor-decoder/), or Windows executable.\
 Alternatively, install and run from source:
 
 ```
-git clone https://github.com/VoxelCubes/Resistor-Color-and-SMD-Decoder
-cd Resistor-Color-and-SMD-Decoder
+git clone https://github.com/VoxelCubes/ResistorDecoder
+cd ResistorDecoder
 python main.py
 ```
 
