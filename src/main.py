@@ -2,7 +2,7 @@
 import os
 
 """
-python -m nuitka --onefile --plugin-enable=pyside6 -o "Resistor Decoder.exe" --windows-disable-console --windows-icon-from-ico=icons\resistor_decoder.png --output-dir=nuitka_build src\main.py
+python -m nuitka --onefile --plugin-enable=pyside6 -o "ResistorDecoder.exe" --windows-disable-console --windows-icon-from-ico=icons\resistor_decoder.png --output-dir=nuitka_build src\main.py
 """
 
 # QT plugins are copied from the site-packages folder into .\qtplugins\ for the pyinstaller build.
