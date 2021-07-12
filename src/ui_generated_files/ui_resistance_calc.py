@@ -3,14 +3,14 @@
 ################################################################################
 ## Form generated from reading UI file 'resistance_calc.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.1.2
+## Created by: Qt User Interface Compiler version 6.0.3
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide6.QtCore import *  # type: ignore
-from PySide6.QtGui import *  # type: ignore
-from PySide6.QtWidgets import *  # type: ignore
+from PySide6.QtCore import *
+from PySide6.QtGui import *
+from PySide6.QtWidgets import *
 
 import resource_base_rc
 
@@ -837,7 +837,7 @@ class Ui_MainWindow(object):
         self.label_34.setText(QCoreApplication.translate("MainWindow", u"Author:", None))
         self.label_39.setText(QCoreApplication.translate("MainWindow", u"Voxel ", None))
         self.label_33.setText(QCoreApplication.translate("MainWindow", u"Source:", None))
-        self.label_40.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><a href=\"https://github.com/VoxelCubes/Resistor-Color-and-SMD-Decoder\"><span style=\" text-decoration: underline; color:#5294e2;\">github.com/VoxelCubes/Resistor-Color-and-SMD-Decoder</span></a></p></body></html>", None))
+        self.label_40.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><a href=\"https://github.com/VoxelCubes/ResistorDecoder\"><span style=\" text-decoration: underline; color:#5294e2;\">github.com/VoxelCubes/ResistorDecoder</span></a></p></body></html>", None))
         self.pushButton_license.setText(QCoreApplication.translate("MainWindow", u"License: GNU General Public License Version 3 and later", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.about), QCoreApplication.translate("MainWindow", u"About", None))
     # retranslateUi

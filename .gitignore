@@ -117,3 +117,7 @@ notes.txt
 
 # aur
 aur/
+
+# Nuikta
+nuitka_build/
+*.exe

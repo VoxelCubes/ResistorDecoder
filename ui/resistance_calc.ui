@@ -1227,7 +1227,7 @@
           <item row="3" column="1">
            <widget class="QLabel" name="label_40">
             <property name="text">
-             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/VoxelCubes/Resistor-Color-and-SMD-Decoder&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#5294e2;&quot;&gt;github.com/VoxelCubes/Resistor-Color-and-SMD-Decoder&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/VoxelCubes/ResistorDecoder&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#5294e2;&quot;&gt;github.com/VoxelCubes/ResistorDecoder&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="textFormat">
              <enum>Qt::RichText</enum>
