@@ -22,7 +22,9 @@ pip install PySide6
 ```
 
 ## Installation
-This program is available as an [AUR package](https://aur.archlinux.org/packages/resistor-decoder/), or [Windows executable](https://github.com/VoxelCubes/ResistorDecoder/releases/). \
+This program is available as an [AUR package](https://aur.archlinux.org/packages/resistor-decoder/), \
+[AppImage](https://github.com/VoxelCubes/ResistorDecoder/releases/), \
+or [Windows executable](https://github.com/VoxelCubes/ResistorDecoder/releases/). \
 Alternatively, install and run from source:
 
 ```
