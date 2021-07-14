@@ -122,3 +122,6 @@ aur/
 nuitka_build/
 *.exe
 *.appimage
+
+# Snap and Flatpak
+*.yaml
