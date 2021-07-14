@@ -5,7 +5,7 @@ import os
 python -m nuitka --help
 # Windows:
 python -m nuitka --onefile --plugin-enable=pyside6 -o "ResistorDecoder.exe" --windows-disable-console --windows-icon-from-ico=icons\resistor_decoder.png --output-dir=nuitka_build src\main.py
-# Linux:
+# Linux AppImage:
 python -m nuitka --onefile --plugin-enable=pyside6 -o "ResistorDecoder-1.0.appimage" --windows-disable-console --linux-onefile-icon=icons/resistor_decoder.png --output-dir=nuitka_build src/main.py
 """
 
@@ -15,7 +15,7 @@ os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "."  #"qtplugins"
 import sys
 import PySide6.QtWidgets as Qw
 import PySide6.QtCore as Qc
-from src.driver_resistance_calc import ResistanceCalc
+from ResistorDecoder.src.driver_resistance_calc import ResistanceCalc
 
 
 

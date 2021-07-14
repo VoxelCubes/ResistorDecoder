@@ -3,10 +3,10 @@ import PySide6.QtGui as Qg
 from PySide6.QtSvgWidgets import QSvgWidget
 import PySide6.QtWidgets as Qw
 
-import src.helpers as gh
-import src.smd_code_parser as smd_parse
-from src.ui_generated_files.ui_resistance_calc import Ui_MainWindow
-from src.driver_license import LicenseAgreement
+import ResistorDecoder.src.helpers as gh
+from ResistorDecoder.src import smd_code_parser as smd_parse
+from ResistorDecoder.src.ui_generated_files.ui_resistance_calc import Ui_MainWindow
+from ResistorDecoder.src.driver_license import LicenseAgreement
 
 
 

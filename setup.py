@@ -18,11 +18,11 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=["release"]),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: FSF Approved :: GPLv3 License",
+        "License :: OSI Approved :: GPLv3 License",
         "Operating System :: OS Independent",
     ],
     install_requires=["pyside6"],
     entry_points={
-        "gui_scripts": ["resistor_decoder = ResistorDecoder.main:main"],
+        "gui_scripts": ["resistor_decoder = ResistorDecoder.src.main:main"],
     },
 )

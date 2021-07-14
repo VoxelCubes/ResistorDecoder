@@ -1,6 +1,6 @@
 import PySide6.QtWidgets as Qw
 
-from ui_generated_files.ui_license import Ui_License
+from ResistorDecoder.src.ui_generated_files.ui_license import Ui_License
 
 
 
