@@ -16,9 +16,5 @@ cd release
 find . -type d -name __pycache__ -exec rm -dr {} \;
 # Add root dependency to all imports
 find . -exec sed -i "s/import resource_base_rc/import ResistorDecoder.src.resource_base_rc/g" {} \;
-#                     s/import src./import ResistorDecoder./g;
-#                     s/from ui_generated_files/from ResistorDecoder.ui_generated_files/g;
-#                     ;
-#                     s/from src./from ResistorDecoder./g;" {} \;
 # Create the tarball
 tar -czf ResistorDecoder-1.0.tar.gz ResistorDecoder
