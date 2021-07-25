@@ -28,7 +28,7 @@ pip install PySide6
 ## Installation
 This program is available as an [AUR package](https://aur.archlinux.org/packages/resistor-decoder/), 
 [AppImage](https://github.com/VoxelCubes/ResistorDecoder/releases/), 
-or [Windows executable](https://github.com/VoxelCubes/ResistorDecoder/releases/). \
+or [Windows executable](https://github.com/VoxelCubes/ResistorDecoder/releases/).² \
 Alternatively, install and run from source:
 
 ```
@@ -39,3 +39,4 @@ python main.py
 
 ## Notes
 1. Tolerance values are only standardized for EIA-96 codes and codes with short underlines. Check the manufacturer's datasheet if the tolerance is critical for your application.
+2. **Flatpak** and **Snap** packages are not available. If someone knows how to make them, or other packaging formats, help is much appreciated. 
